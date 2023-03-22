@@ -77,6 +77,11 @@ h4,
     padding: 5% 5% 5% 5%;
 }
 
+.text-vendeur-main {
+    text-align: left;
+    padding: 5% 5% 5% 10%;
+}
+
 .text-vendeur-team {
     text-align: left;
     padding: 10% 0% 10% 3%;
