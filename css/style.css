@@ -58,6 +58,11 @@
 }
 
 
+.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+}
+
 /*** Heading ***/
 h1,
 h2,
@@ -84,7 +89,15 @@ h4,
 
 .text-vendeur-team {
     text-align: left;
-    padding: 10% 0% 10% 3%;
+    padding: 10% 0% 10% 0%;
+}
+
+.slide-button {
+    background-color: blue;
+}
+
+.slide-button .active {
+    background-color: black;
 }
 
 .col-vendeuse {
