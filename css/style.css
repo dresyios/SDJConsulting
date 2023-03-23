@@ -89,7 +89,7 @@ h4,
 
 .text-vendeur-team {
     text-align: left;
-    padding: 10% 0% 10% 0%;
+    padding: 10% 0% 10% 1%;
 }
 
 .slide-button {
@@ -119,6 +119,16 @@ h4,
 .citation-presentation {
     padding: 0 0% 0 0%;
 }
+
+
+  ul.text-vendeur-team {
+    list-style-type: none;
+    font-size: 20px;
+  }
+
+  ul.text-vendeur-team > li:before {
+    content: "-";
+  }
 
 h5,
 h6,
